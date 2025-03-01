@@ -1,0 +1,165 @@
+body {
+    font-family: 'Paytone One', 'Ubuntu Sans', sans-serif;
+}
+
+.container {
+    padding: 0rem;
+    position: relative;
+    justify-content: space-between;
+}
+
+.navbar{
+    background-color:white;
+    padding: 0px;
+}
+
+.navbar-brand {
+    font-family: 'Paytone One', sans-serif;
+}
+
+.nav-item-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+
+.navbar .nav-link {
+    font-family: 'Ubuntu Sans', sans-serif;
+    font-weight: 900;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar .nav-link:hover {
+    color: #2F4156 !important;  
+}
+.btn-rounded {
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-family: 'Ubuntu Sans';
+}
+.btn-hover {
+    transition: background-color 0.3s, color 0.3s ease-in-out;
+}
+
+.btn-hover:hover {
+    background-color: #2F4156 !important;
+    color: white !important;
+}
+
+.hero-section {
+    background: url('hiks.png') no-repeat center;
+    border:none;
+    padding: 80px 0px;
+    position:relative;
+    top: 70px;
+    left: 0;
+    bottom: 0px;
+    width: 30%;     
+    max-height: 100vh; 
+    display: flex;
+    align-items: center;
+}
+
+.contain {
+    margin-left: auto; /* Atur posisi lebih ke kiri */
+    margin-right: auto;
+    transform: translateX(-1px) translateY(250px);
+}
+
+
+.search-bar {
+    border-radius: 30px;
+    overflow: hidden;
+    background: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.search-bar input {
+    border-radius: 30px;
+}
+
+.search-bar .btn {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-wrapper i.fa-search {
+    font-size: 14px;
+    top: -10px; /* Atur posisi ikon search ke atas */
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Skills Badge */
+.skills-badge {
+    display: inline-block;  /* Agar tetap dalam 1 baris */
+    padding: 8px 12px;
+    color: black;
+    background-color: #f0f0f0; /* Warna background */
+    border-radius: 20px; /* Membuat rounded */
+    font-size: 14px;
+    font-weight: 600;
+    margin: 5px;
+    text-transform: capitalize;
+}
+
+.text-black {
+    color: black !important;
+}
+/* Trusted Freelancer Card */
+.trusted-card {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 500px; /* Pastikan lebar tetap */
+    height: 200px; /* Pastikan tinggi tetap */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Pastikan tidak ada elemen keluar */
+}
+
+.trusted-card .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Jarak antar gambar */
+}
+
+.trusted-card img {
+    width: 100px; /* Atur ukuran agar pas */
+    height: 100px;
+    object-fit: cover; /* Pastikan gambar tetap proporsional */
+    border-radius: 50%; /* Biar tetap bulat */
+    border: 3px solid white; /* Opsional: memberi border */
+}
+
+
+.rounded-box {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.rounded-card {
+    height: 100px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+}
