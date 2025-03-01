@@ -69,7 +69,7 @@ body {
 .contain {
     margin-left: auto; /* Atur posisi lebih ke kiri */
     margin-right: auto;
-    transform: translateX(-1px) translateY(230px);
+    transform: translateX(-1px) translateY(210px);
 }
 
 
