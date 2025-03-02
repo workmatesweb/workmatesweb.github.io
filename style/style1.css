@@ -228,13 +228,18 @@ body {
     padding: 30px;
 }
 .icon-circle {
-    width: 70px;
-    height: 70px;
-    background-color: #D9D9D9;
+    min-width:100px;  /* Ukuran lingkaran */
+    height: 100px;
+    background-color: #D9D9D9; /* Warna abu-abu */
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 50%;
+    border-radius: 50%; /* Membuat lingkaran */
+}
+.icon-circle i {
+    font-size: 50px; /* Ukuran ikon */
+    color: black; /* Warna ikon */
+    font-weight: bold;
 }
 .testimonial-box {
     background-color: #EAF4FF;
