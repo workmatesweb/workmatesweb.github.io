@@ -151,6 +151,11 @@ body {
     border: 3px solid white; /* Opsional: memberi border */
 }
 
+.card-img {
+    width: 100%;
+    height: 100%;
+    object-fit:fill; /* Mengisi kartu sepenuhnya tanpa distorsi */
+}
 
 .rounded-box {
     background-color: white;
@@ -172,7 +177,7 @@ body {
     justify-content: space-between;
     align-items: flex-start;
     border-radius: 16px;
-    padding: 20px;
+    padding: 0px;
     background: #f8f9fa;
 }
 
@@ -189,4 +194,50 @@ body {
 .rounded-card .btn {
     width: 40px;
     height: 40px;
+}
+
+.card {
+    width: 100%;
+    max-width: 1400px;/* Sesuaikan ukuran */
+    overflow: hidden;
+    align-items: center;
+    border-color: white;
+    height:70%
+}
+
+.card-img2 {
+    border-radius: 30px;
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.8); /* Warna transparan */
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.highlight-box {
+    background-color: #EAF4FF;
+    border-radius: 15px;
+    padding: 30px;
+}
+.icon-circle {
+    width: 70px;
+    height: 70px;
+    background-color: #D9D9D9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.testimonial-box {
+    background-color: #EAF4FF;
+    border-radius: 15px;
+    padding: 30px;
 }
