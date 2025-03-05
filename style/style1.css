@@ -454,6 +454,16 @@ body {
     font-size: 14px;
 }
 
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+}
+
 @media (max-width: 768px) {
     .footer-sections, .footer-subscribe {
         flex-direction: column;
