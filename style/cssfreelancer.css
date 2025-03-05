@@ -1,0 +1,395 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #f5f5f5;
+    padding: 80px 20px 20px; 
+    margin: 0;
+}
+body {
+    padding-top: 80px; /* Sesuaikan dengan tinggi navbar */
+}
+
+.job-listing-area {
+    padding-top: 10px; /* Sesuaikan */
+}
+
+.navbar {
+    height: 60px;
+    background-color: #C2DBEF !important;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: #333 !important;
+}
+
+.nav-icons a {
+    color: #333;
+    text-decoration: none;
+}
+
+.small-text {
+    font-size: 12px; /* Sesuaikan ukuran yang diinginkan */
+}
+
+.mid-text {
+    font-size: 15px; /* Sesuaikan ukuran yang diinginkan */
+    margin-top: 5px;
+}
+
+label.container {
+    font-size: 12px; /* Sesuaikan ukuran */
+}
+
+.select-job-items2 select {
+    font-size: 10px; /* Sesuaikan ukuran */
+    padding: 5px; /* Sesuaikan padding agar tidak terlalu besar */
+}
+
+.select-job-items2 select {
+    font-size: 12px;
+    height: 25px; /* Sesuaikan tinggi */
+    width: 90%; /* Sesuaikan jika perlu */
+    margin-bottom: 10px;
+}
+
+.small-section-tittle2 {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Jarak antara ikon dan teks */
+}
+
+.ion {
+    position: relative;
+    top: -2px; /* Geser ikon ke atas */
+}
+
+.job-listing-area{
+    float: left;
+    width: 300px;
+    margin-left: 70px;
+    padding-right: 0px;
+}
+
+
+.profile-card {
+    float: right;
+    position: relative;
+    background: #cfe2f3; /* Warna biru muda */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    
+}
+
+
+
+.skills span {
+    display: inline-block;
+    background: #C2DBEF;
+    padding: 5px 10px;
+    margin-top: 0px;
+    border-radius: 15px;
+    margin: 5px;
+    font-size: 10px;
+}
+
+.profile-btn {
+    background: #007bff;
+    color: white;
+    border: none;
+   
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.profile-btn:hover {
+    background: #0056b3;
+}
+
+
+
+.profile-img {
+    width: 80px;
+    height: 80px;
+    background: #ccc;
+    border-radius: 50%;
+    margin: 0 auto 10px;
+}
+
+.profile-card {
+    max-width: 250px;
+    max-height: 400px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.card-body {
+    flex-grow: 1;
+    height: 250px !important;
+}
+
+
+.fotoprofil{
+    margin-left: 100px;
+}
+
+.footer {
+    margin-top: 20px;
+    background-color: white;
+    color: black;
+    padding: 40px 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.footer {
+    background-color: white;
+    padding-top: 30px;
+    margin-top: 40px;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-sections {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+}
+
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.footer-section h5 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.footer-section p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+    color: #666;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-subscribe {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.subscribe-form {
+    display: flex;
+    gap: 10px;
+}
+
+.subscribe-form input {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 250px;
+}
+
+.subscribe-form button {
+    background-color: #4584FF;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+}
+
+.footer-bottom {
+    background-color: #4584FF;
+    padding: 15px 0;
+    margin-top: 30px;
+}
+
+.footer-bottom .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-brand {
+    display: flex;
+    align-items: center;
+}
+
+.footer-brand img {
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+}
+
+.footer-brand span {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.language-selector {
+    display: flex;
+    gap: 10px;
+}
+
+.language-selector button {
+    background: transparent;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.language-selector button.active {
+    background-color: #2563eb;
+}
+
+.copyright {
+    background-color: #4584FF;
+    padding: 10px 0;
+    text-align: center;
+    color: white;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.copyright p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.about {
+    margin-right: 100px; /* Sesuaikan nilai ini sesuai kebutuhan */
+}
+
+.brand{
+    margin-left: 50px;
+}
+
+.progress-container {
+    display: flex;
+    align-items: center; /* Supaya gambar dan checklist sejajar */
+}
+
+.gambar {
+    margin-right: 20px; /* Beri jarak antara gambar dan checklist */
+}
+
+.halo {
+    display: flex;
+    flex-direction: column;
+}
+
+label.containers {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Beri jarak antara checkbox dan teks */
+}
+label.containers {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Beri jarak antara checkbox dan teks */
+    font-size: 18px; /* Ubah ukuran teks */
+    font-weight: bold; /* Buat teks lebih tebal jika diperlukan */
+}
+.log-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.activity-log, .project-files {
+    width: 48%; /* To create two columns */
+}
+
+.icon {
+    width: 16px; /* Icon size */
+    
+    height: 16px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
