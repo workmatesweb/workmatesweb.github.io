@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Workmates</title>
-    <link rel="stylesheet" href="style/style2.css">
+    <link rel="stylesheet" href="style/style3.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
@@ -40,48 +40,65 @@
 
     <div class="container mt-5 pt-3">
         <div class="row">
-            <div class="col-md-3 p-3 text-dark"  style="box-shadow: none" id="sidebar">
-                <h5><strong>Halo,</strong>Minnie</h5>
-                <div class="profile-card p-3 text-center">
-                    <div class="progress-container mt-3 d-flex flex-column align-items-center">
-                        <svg width="100" height="100" viewBox="0 0 100 100">
-                            <!-- Background Circle -->
-                            <circle cx="50" cy="50" r="40" stroke="#EAEAEA" stroke-width="8" fill="none"/>
-                    
-                            <!-- Progress Circle -->
-                            <circle cx="50" cy="50" r="40" stroke="#1E3A5F" stroke-width="8" fill="none"
-                                stroke-dasharray="251" stroke-dashoffset="125"
-                                stroke-linecap="round" transform="rotate(-90 50 50)"/>
-                    
-                            <!-- Progress Text -->
-                            <text x="50" y="55" text-anchor="middle" font-size="14" font-weight="bold" fill="#000">50%</text>
-                        </svg>
-                        <p class="mt-2 fw-bold">Progress Proyek</p>
+            <!-- Sidebar -->
+            <div class="col-md-3 p-3" id="sidebar">
+                <div class="profile-card-one p-3 text-center">
+                    <h5 style="margin-bottom: 20px;"><strong>Halo,</strong>Minnie</h5>
+                    <div class="progress-box mt-3">
+                        <p class="fw-bold">Selamat, Anda telah menyelesaikan</p>
+                        <h2 class="text-danger fw-bold">1</h2>
+                        <p>proyek</p>
                     </div>
-                    <p class="mb-0">Penghasilan Anda</p>
-                    <h4 class="text-danger fw-bold">Rp. 3.000.000,00</h4>
-                    <p class="mb-0">Jumlah proyek</p>
-                    <h4 class="text-danger">2</h4>
                 </div>
             </div>
-            <div class="col-md-9" id="workspace">
-                <h4>Workspace</h4>
-                <div class="d-flex gap-2">
-                    <select class="form-select">
-                        <option>Semua Status</option>
-                    </select>
-                    <select class="form-select">
-                        <option>Semua Tanggal</option>
-                    </select>
-                    <select class="form-select">
-                        <option>Semua Jenis Pekerjaan</option>
-                    </select>
-                    <button class="btn text-dark fw-bold" style="background-color: #C2DBEF;">Cari Judul/Username</button>
+    
+            <!-- Edit Profil -->
+            <div class="col-md-9">
+                <h4 class="fw-bold">Edit Profil</h4>
+                <div class="row">
+                    <!-- Data Pribadi -->
+                    <div class="col-md-6">
+                        <div class="profile-card p-3 rounded shadow-sm">
+                            <div class="d-flex justify-content-between">
+                                <h5>Data Pribadi</h5>
+                                <button class="btn btn-outline-dark">Edit</button>
+                            </div>
+                            <hr>
+                            <div class="d-flex align-items-center">
+                                <img src="image/profil.svg" alt="Profile" width="50" class="rounded-circle me-3">
+                                <h6>Data Pribadi</h6>
+                            </div>
+                            <p><strong>Nama Lengkap:</strong> Minnie</p>
+                            <p><strong>Username:</strong> minnie_1</p>
+                            <p><strong>Email:</strong> <a href="mailto:minnie@gmail.com">minnie@gmail.com</a></p>
+                            <p><strong>No. Telepon:</strong> +621234567990</p>
+                        </div>
+                    </div>
+    
+                    <!-- Dokumen & Kategori Pekerjaan -->
+                    <div class="col-md-6">
+                        <div class="profile-card p-3 rounded shadow-sm">
+                            <div class="d-flex justify-content-between">
+                                <h5>Dokumen & Kategori Pekerjaan</h5>
+                                <button class="btn btn-outline-dark">Edit</button>
+                            </div>
+                            <hr>
+                            <p><strong>Dokumen</strong></p>
+                            <select class="form-select mb-2">
+                                <option>PDF</option>
+                                <option>DOC</option>
+                                <option>EXCEL</option>
+                            </select>
+                            <p><strong>Kategori Pekerjaan</strong></p>
+                            <select class="form-select">
+                                <option>Pilih Kategori</option>
+                            </select>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    
 
     <footer class="footer">
         <div class="container">
@@ -160,7 +177,5 @@
     </footer>
     
     
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    
 </body>
-</html>
