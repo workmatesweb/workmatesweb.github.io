@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workmates</title>
+    <link rel="stylesheet" href="style/style2.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg shadow-sm fixed-top" style="background-color: #C2DBEF; font-family: 'Paytone One'">
+        <div class="container">
+            <a class="navbar-brand text-dark fw-bold me-auto" href="#">
+                <img src="image/download.png" alt="icon" width="30" height="30" class="me-2">Workmates
+            </a>
+            <div class="nav-icons ms-auto d-flex align-items-center">
+                <a href="#" class="me-2"><img src="image/Socialicons.png" alt="WhatsApp" width="20"></a> 
+                <a href="#" class="me-2"><img src="image/Notification.png" alt="Notification" width="20"></a>
+                <a href="#" class="me-2"><img src="image/Message.png" alt="Message" width="20"></a>
+                <a href="#" class="nav-link me-2">Dashboard</a>
+                <div class="dropdown">
+                    <a class="dropdown-toggle d-flex align-items-center" href="#" role="button" data-bs-toggle="dropdown">
+                        <img src="image/profil.svg" alt="Profile" width="30" height="30" class="rounded-circle">
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end" style="font-family:'Ubuntu Sans'">
+                        <li><a class="dropdown-item" href="#">Profile</a></li>
+                        <li><a class="dropdown-item" href="#">Settings</a></li>
+                        <li><a class="dropdown-item" href="#">Log Out</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5 pt-3">
+        <div class="row">
+            <div class="col-md-3 p-3 text-dark" style="box-shadow: none; font-family: 'Ubuntu Sans';" id="sidebar">
+                <h5><strong>Good morning,</strong>Minnie</h5>
+                <div class="profile-card p-3 text-center">
+                    <div class="progress-container mt-3 d-flex flex-column align-items-center">
+                        <svg width="100" height="100" viewBox="0 0 100 100">
+                            <!-- Background Circle -->
+                            <circle cx="50" cy="50" r="40" stroke="#EAEAEA" stroke-width="8" fill="none"/>
+                    
+                            <!-- Progress Circle -->
+                            <circle cx="50" cy="50" r="40" stroke="#1E3A5F" stroke-width="8" fill="none"
+                                stroke-dasharray="251" stroke-dashoffset="125"
+                                stroke-linecap="round" transform="rotate(-90 50 50)"/>
+                    
+                            <!-- Progress Text -->
+                            <a href="progress.html">
+                                <text x="50" y="55" text-anchor="middle" font-size="14" font-weight="bold" fill="#000" cursor="pointer">50%</text>
+                            </a>
+                        </svg>
+                        <p class="mt-2 fw-bold" >Project progress</p>
+                    </div>
+                    <p class="mb-0">Your income </p>
+                    <h4 class="text-danger fw-bold">Rp. 3.000.000,00</h4>
+                    <p class="mb-0">Total Projects </p>
+                    <h4 class="text-danger">2</h4>
+                </div>
+            </div>
+            <div class="col-md-9" id="workspace">
+                <h4 style="font-family: 'Paytone One'">Workspace</h4>
+                <div class="d-flex gap-2">
+                    <select class="form-select">
+                        <option selected disabled>All status</option>
+                        <option>In progress</option>
+                        <option>Done</option>
+                    </select>
+                    <input type="date" class="form-control">
+                    <select class="form-select">
+                        <option selected disabled>All kinds of job</option>
+                        <option>Paid</option>
+                        <option>Internship</option>
+                        <option>Help</option>
+                    </select>
+                    <button class="btn text-white fw-bold" style="background-color: #f90404;">Not Available</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <footer class="footer">
+        <div class="container" style=" font-family: 'Ubuntu Sans'">
+            <div class="footer-content">
+                <div class="footer-sections">
+                    <div class="footer-section">
+                        <h5>Short Brief About Us</h5>
+                        <p>WorkMates is a website that serves as a bridge between freelancers and those in need of their services. Through this platform, freelancers can create professional profiles that showcase their portfolios, certifications, and skills. This allows clients to easily assess and select the freelancers that best match their needs.</p>
+                    </div>
+                    
+                    <div class="footer-links">
+                        <div class="footer-section">
+                            <h5>Website Links</h5>
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="index.html">About</a></li>
+                                <li><a href="#">Get in touch</a></li>
+                                <li><a href="#">FAQs</a></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="footer-section">
+                            <h5>Services</h5>
+                            <ul>
+                                <li><a href="#">Architecture</a></li>
+                                <li><a href="#">Buildings</a></li>
+                                <li><a href="#">3d maps</a></li>
+                                <li><a href="#">Structure design</a></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="footer-section">
+                            <h5>Developers</h5>
+                            <ul>
+                                <li><a href="#">Features</a></li>
+                                <li><a href="#">Testimonials</a></li>
+                                <li><a href="#">Referals</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="footer-subscribe">
+                    <div class="subscribe-form">
+                        <input type="email" placeholder="Enter your email">
+                        <button>Subscribe Now</button>
+                    </div>
+                    <div class="social-icons">
+                        <a href="#"><img src="image/facebook.png" alt="Facebook"></a>
+                        <a href="#"><img src="image/ig.png" alt="Instagram"></a>
+                        <a href="#"><img src="image/linkedln.png" alt="LinkedIn"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="footer-brand">
+                    <img src="image/download.png" alt="Workmates logo">
+                    <span>Workmates</span>
+                </div>
+                <div class="language-selector">
+                    <button class="active">English</button>
+                    <button>Arabic</button>
+                    <button>French</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="copyright">
+            <div class="container">
+                <p>Non Copyrighted © 2022 Design and upload by rich technologies</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
