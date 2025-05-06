@@ -46,7 +46,7 @@ require_once 'backend/service_detail.php';
                 <div class="w-100">
                     <h2 class="fw-bold"><?php echo htmlspecialchars($freelancer['job_title']); ?></h2>
                     <p class="text-muted"><?php echo htmlspecialchars($freelancer['bio']); ?></p>
-                    <p class="fs-5 fw-bold">Starting From: <span class="text-primary">Rp. <?php echo number_format($freelancer['expected_salary'], 0, ',', '.'); ?></span></p>
+                    <p class="fs-5 fw-bold">Starting From: <span class="text-primary">Rp. <?php echo number_format(880000, 0, ',', '.'); ?></span></p>
                 </div>
             </div>
             
@@ -72,7 +72,7 @@ require_once 'backend/service_detail.php';
                             <div class="d-flex flex-column">
                                 <div class="form-check">
                                     <input type="radio" name="price_option" id="harga1" class="form-check-input" value="default" checked>
-                                    <label for="harga1" class="form-check-label fw-bold">Rp. <?php echo number_format($freelancer['expected_salary'], 0, ',', '.'); ?></label>
+                                    <label for="harga1" class="form-check-label fw-bold">Rp. <?php echo number_format(880000, 0, ',', '.'); ?></label>
                                 </div>
                                 <div class="form-check">
                                     <input type="radio" name="price_option" id="harga2" class="form-check-input" value="custom">
