@@ -157,7 +157,7 @@ $conn->close();
                     </a>
                 </div>
                 
-                <a href="dashboardfreelancer.php" class="nav-link me-3 fw-bold" style="color: black; font-weight: normal ;">Dashboard</a>
+                <a href="dashboardfreelancer.php" class="nav-link me-3 fw-bold" style="color: black; font-weight: lighter ;">Dashboard</a>
                 
                 <div class="dropdown">
                     <a class="dropdown-toggle d-flex align-items-center" href="#" role="button" data-bs-toggle="dropdown">
