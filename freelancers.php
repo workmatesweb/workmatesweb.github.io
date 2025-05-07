@@ -182,7 +182,7 @@ require_once 'backend/freelancers_backend.php';
                         <img src="image/profil.svg" alt="Profile" width="30" height="30" class="rounded-circle">
                     </a>
                     <ul class="dropdown-menu dropdown-menu-end">
-                        <li><a class="dropdown-item" href="pofileclient.php">Profile</a></li>
+                        <li><a class="dropdown-item" href="profileclient.php">Profile</a></li>
                         <li><a class="dropdown-item" href="#">Settings</a></li>
                         <li><hr class="dropdown-divider"></li>
                         <li><a class="dropdown-item" href="logout.php">Logout</a></li>
