@@ -223,9 +223,14 @@ $conn->close();
                         <img src="image/profil.svg" alt="Profile" width="30" height="30" class="rounded-circle">
                     </a>
                     <ul class="dropdown-menu dropdown-menu-end">
-                        <li><a class="dropdown-item" href="#dashboardfreelancer.php">Profil</a></li>
-                        <li><a class="dropdown-item" href="#">Pengaturan</a></li>
-                        <li><a class="dropdown-item" href="#logout.php">Keluar</a></li>
+                        <li><a class="dropdown-item" href="pofileclient.php">Profile</a></li>
+                        <li><a class="dropdown-item" href="settings.php">Settings</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li>
+                            <form action="logout.php" method="post" id="logout-form">
+                                <button type="submit" class="dropdown-item" id="logout-btn">Log Out</button>
+                            </form>
+                        </li>
                     </ul>
                 </div>
             </div>
