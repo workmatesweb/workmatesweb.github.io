@@ -4,7 +4,7 @@ session_start();
 
 // Check if user is logged in (either as freelancer or client)
 if (isset($_SESSION['freelancer_id'])) {
-    header("Location: http://localhost/23si2/workmates.github.io/login.php");
+    header("Location: http://localhost/workmates.github.io/login.php");
     exit();
 }
 
