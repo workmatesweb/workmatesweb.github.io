@@ -392,11 +392,7 @@
                         </div>
                         <button class="btn btn-primary w-100">Subscribe</button>
                         
-                        <div class="social-icons mt-3">
-                            <a href="#" class="me-2"><img src="image/facebook.png" alt="Facebook"></a>
-                            <a href="#" class="me-2"><img src="image/ig.png" alt="Instagram"></a>
-                            <a href="#"><img src="image/linkedln.png" alt="LinkedIn"></a>
-                        </div>
+                        
                     </div>
                 </div>
             </div>
