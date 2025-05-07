@@ -573,77 +573,87 @@ $conn->close();
     <?php endif; ?>
 
     <footer class="footer">
-        <div class="container"> 
-            <div class="footer-content">
-                <div class="footer-sections">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
                     <div class="footer-section">
-                        <h5>Short Brief About Us</h5>
-                        <p>WorkMates is a website that serves as a bridge between freelancers and those in need of their services. Through this platform, freelancers can create professional profiles that showcase their portfolios, certifications, and skills. This allows clients to easily assess and select the freelancers that best match their needs.</p>
-                    </div>
-                    
-                    <div class="footer-links">
-                        <div class="footer-section">
-                            <h5>Website Links</h5>
-                            <ul>
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">About</a></li>
-                                <li><a href="#">Get in touch</a></li>
-                                <li><a href="#">FAQs</a></li>
-                            </ul>
-                        </div>
-                        
-                        <div class="footer-section">
-                            <h5>Services</h5>
-                            <ul>
-                                <li><a href="#">Architecture</a></li>
-                                <li><a href="#">Buildings</a></li>
-                                <li><a href="#">3d maps</a></li>
-                                <li><a href="#">Structure design</a></li>
-                            </ul>
-                        </div>
-                        
-                        <div class="footer-section">
-                            <h5>Developers</h5>
-                            <ul>
-                                <li><a href="#">Features</a></li>
-                                <li><a href="#">Testimonials</a></li>
-                                <li><a href="#">Referals</a></li>
-                            </ul>
-                        </div>
+                        <h5>About Workmates</h5>
+                        <p>Workmates connects businesses with skilled freelancers across various industries. Our platform makes it easy to find the perfect talent for your projects.</p>
                     </div>
                 </div>
                 
-                <div class="footer-subscribe">
-                    <div class="subscribe-form">
-                        <input type="email" placeholder="Enter your email">
-                        <button>Subscribe Now</button>
+                <div class="col-lg-2 col-md-4">
+                    <div class="footer-section">
+                        <h5>Quick Links</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="index.html" class="text-decoration-none">Home</a></li>
+                            <li><a href="#" class="text-decoration-none">About Us</a></li>
+                            <li><a href="#" class="text-decoration-none">Freelancers</a></li>
+                            <li><a href="#" class="text-decoration-none">Projects</a></li>
+                        </ul>
                     </div>
-                    <div class="social-icons">
-                        <a href="#"><img src="image/facebook.png" alt="Facebook"></a>
-                        <a href="#"><img src="image/ig.png" alt="Instagram"></a>
-                        <a href="#"><img src="image/linkedln.png" alt="LinkedIn"></a>
+                </div>
+                
+                <div class="col-lg-2 col-md-4">
+                    <div class="footer-section">
+                        <h5>Services</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-decoration-none">Web Development</a></li>
+                            <li><a href="#" class="text-decoration-none">Graphic Design</a></li>
+                            <li><a href="#" class="text-decoration-none">Digital Marketing</a></li>
+                            <li><a href="#" class="text-decoration-none">Content Writing</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-lg-2 col-md-4">
+                    <div class="footer-section">
+                        <h5>Support</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-decoration-none">FAQ</a></li>
+                            <li><a href="#" class="text-decoration-none">Contact Us</a></li>
+                            <li><a href="#" class="text-decoration-none">Privacy Policy</a></li>
+                            <li><a href="#" class="text-decoration-none">Terms of Service</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-lg-2">
+                    <div class="footer-section">
+                        <h5>Subscribe</h5>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="Your email">
+                        </div>
+                        <button class="btn btn-primary w-100">Subscribe</button>
+                        
+                        
                     </div>
                 </div>
             </div>
-        </div>
-        
-        <div class="footer-bottom">
-            <div class="container">
-                <div class="footer-brand">
-                    <img src="image/download.png" alt="Workmates logo">
-                    <span>Workmates</span>
+            
+            <hr class="my-4">
+            
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="footer-brand d-flex align-items-center">
+                        <img src="image/download.png" alt="Workmates Logo" height="30">
+                        <span class="ms-2 fw-bold">Workmates</span>
+                    </div>
                 </div>
-                <div class="language-selector">
-                    <button class="active">English</button>
-                    <button>Arabic</button>
-                    <button>French</button>
+                
+                <div class="col-md-6 text-md-end">
+                    <div class="language-selector mt-3 mt-md-0">
+                        <button class="active">English</button>
+                        <button>Bahasa</button>
+                        <button>日本語</button>
+                    </div>
                 </div>
             </div>
-        </div>
-        
-        <div class="copyright">
-            <div class="container">
-                <p>Non Copyrighted © 2022 Design and upload by rich technologies</p>
+            
+            <div class="text-center mt-3">
+                <p class="small text-muted mb-0">
+                    &copy; <?php echo date('Y'); ?> Workmates. All rights reserved.
+                </p>
             </div>
         </div>
     </footer>
