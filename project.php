@@ -223,9 +223,9 @@ $conn->close();
                         <img src="image/profil.svg" alt="Profile" width="30" height="30" class="rounded-circle">
                     </a>
                     <ul class="dropdown-menu dropdown-menu-end">
-                        <li><a class="dropdown-item" href="#">Profil</a></li>
+                        <li><a class="dropdown-item" href="#dashboardfreelancer.php">Profil</a></li>
                         <li><a class="dropdown-item" href="#">Pengaturan</a></li>
-                        <li><a class="dropdown-item" href="#">Keluar</a></li>
+                        <li><a class="dropdown-item" href="#logout.php">Keluar</a></li>
                     </ul>
                 </div>
             </div>
