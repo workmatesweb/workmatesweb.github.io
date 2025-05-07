@@ -159,6 +159,7 @@ $conn->close();
                 
                 <a href="dashboardfreelancer.php" class="nav-link me-3 fw-bold" style="color: black; font-weight: lighter ;">Dashboard</a>
                 
+                <div class="dropdown" style="font-family: 'Sans Serif'">
                     <a class="dropdown-toggle d-flex align-items-center" href="#" role="button" data-bs-toggle="dropdown">
                         <img src="<?= htmlspecialchars($_SESSION['profile_picture'] ?? 'image/profil.svg') ?>" 
                              alt="Profile" width="30" height="30" class="rounded-circle border border-2 border-primary">
@@ -205,6 +206,7 @@ $conn->close();
             
             <!-- Workspace -->
             <div class="col-md-9" id="workspace">
+                <h4 style="font-family: 'Sans Serif'">Workspace</h4>
                 
                 <!-- Filters -->
                 <div class="d-flex gap-2 mb-4">
