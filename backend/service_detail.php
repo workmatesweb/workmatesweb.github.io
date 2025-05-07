@@ -19,7 +19,7 @@ $stmt->execute();
 $result = $stmt->get_result();
 
 if ($result->num_rows === 0) {
-    header("Location: http://localhost/23si2/workmatesweb.github.io/freelancers.php");
+    header("Location: http://localhost/workmatesweb.github.io/freelancers.php");
     exit();
 }
 
