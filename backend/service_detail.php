@@ -49,7 +49,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             
             if ($insert_stmt->execute()) {
                 $project_id = $conn->insert_id;
-                header("Location: http://localhost/23si2/workmatesweb.github.io/payment.php?project_id=" . $project_id);
+                header("Location: http://localhost/workmatesweb.github.io/payment.php?project_id=" . $project_id);
                 exit();
             } else {
                 $error = "Error creating project: " . $conn->error;
