@@ -13,7 +13,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             $_SESSION['user_id'] = $user['id'];
             $_SESSION['user_name'] = $user['name'];
             echo "Login berhasil!";
-            header ("Location: http://localhost/23si2/workmatesweb.github.io/dashboard.php"); 
+            header ("Location: http://localhost/workmatesweb.github.io/dashboard.php"); 
             exit();
         } else {
             echo "Password salah!";
