@@ -53,7 +53,7 @@ require_once 'backend/profile_backend.php';
                         <img src="image/profil.svg" alt="Profile" width="30" height="30" class="rounded-circle">
                     </a>
                     <ul class="dropdown-menu dropdown-menu-end">
-                        <li><a class="dropdown-item" href="pofileclient.php">Profile</a></li>
+                        <li><a class="dropdown-item" href="#">Profile</a></li>
                         <li><a class="dropdown-item" href="settings.php">Settings</a></li>
                         <li><hr class="dropdown-divider"></li>
                         <li>
