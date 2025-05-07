@@ -157,22 +157,19 @@ $conn->close();
                     </a>
                 </div>
                 
-                <a href="dashboardfreelancer.php" class="nav-link me-3 fw-bold" style="color: black; font-weight: lighter ;">Dashboard</a>
-                
                 <div class="dropdown">
                     <a class="dropdown-toggle d-flex align-items-center" href="#" role="button" data-bs-toggle="dropdown">
-                        <img src="<?= htmlspecialchars($_SESSION['profile_picture'] ?? 'image/profil.svg') ?>" 
-                             alt="Profile" width="30" height="30" class="rounded-circle border border-2 border-primary">
+                        <img src="image/profil.svg" alt="Profile" width="30" height="30" class="rounded-circle">
                     </a>
                     <ul class="dropdown-menu dropdown-menu-end">
-                            <li><a class="dropdown-item" href="ProfileFreelancer.php">Profile</a></li>
-                            <li><a class="dropdown-item" href="settings.php">Settings</a></li>
-                            <li><hr class="dropdown-divider"></li>
-                            <li>
-                                <form action="logout.php" method="post" id="logout-form">
-                                    <button type="submit" class="dropdown-item" id="logout-btn">Log Out</button>
-                                </form>
-                            </li>
+                        <li><a class="dropdown-item" href="#">Profile</a></li>
+                        <li><a class="dropdown-item" href="settings.php">Settings</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li>
+                            <form action="logout.php" method="post" id="logout-form">
+                                <button type="submit" class="dropdown-item" id="logout-btn">Log Out</button>
+                            </form>
+                        </li>
                     </ul>
                 </div>
             </div>
