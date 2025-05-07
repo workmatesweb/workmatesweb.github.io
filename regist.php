@@ -13,7 +13,7 @@
     <div class="wrapper">
         <h1>Registration Form</h1>
         <div class="icon-container">
-            <img src="Screenshot_2025-02-16_004804-removebg-preview.png" width="100" height="90">
+            <img src="image/download.png" width="100" height="90">
         </div>
         <div class="container">
             <div class="form-group">
