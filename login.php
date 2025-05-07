@@ -14,7 +14,7 @@
   <body>
     <div class="container" id="container">
       <div class="form-container sign-up">
-        <form>
+        <form action="backend/register.php" method="POST">
           <h1>Create Account</h1>
           <div class="social-icons">
             <a href="#" class="icon"
@@ -27,14 +27,14 @@
             ></a>   
           </div>
           <span>or use your email for registeration</span>
-          <input type="text" placeholder="Name" />
-          <input type="email" placeholder="Email" />
-          <input type="password" placeholder="Password" />
-          <button onclick="window.location.href='regist.html'">Sign In</button>
+          <input type="text" name="name" placeholder="Name" />
+          <input type="email" name="email" placeholder="Email" />
+          <input type="password" name="password" placeholder="Password" />
+          <button onclick="window.location.href='regist.html'">Sign Up</button>
         </form>
       </div>
       <div class="form-container sign-in">
-        <form>
+        <form action="backend/login.php" method="POST">
           <h1>Sign In</h1>
           <div class="social-icons">
             <a href="#" class="icon"
@@ -47,10 +47,11 @@
             ></a>
           </div>
           <span>or use your email password</span>
-          <input type="email" placeholder="Email" />
-          <input type="password" placeholder="Password" />
+          <input type="email" name="email" placeholder="Email" />
+          <input type="password" name="password" placeholder="Password" />
           <a href="#">Forget Your Password?</a>
-          <button onclick="window.location.href='regist.html'">Sign In</button>
+          <a href="loginfreelancer.php">Login For Freelancer?</a>
+          <button type="submit">Sign In</button>
         </form>
       </div>
       <div class="toggle-container">
