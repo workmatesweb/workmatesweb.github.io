@@ -157,7 +157,7 @@ $conn->close();
                     </a>
                 </div>
                 
-                <a href="dashboardfreelancer.php" class="nav-link me-3 fw-bold" style="color: black; font-weight: norm;">Dashboard</a>
+                <a href="dashboardfreelancer.php" class="nav-link me-3 fw-bold" style="color: black; font-weight: normal ;">Dashboard</a>
                 
                 <div class="dropdown">
                     <a class="dropdown-toggle d-flex align-items-center" href="#" role="button" data-bs-toggle="dropdown">
@@ -165,10 +165,14 @@ $conn->close();
                              alt="Profile" width="30" height="30" class="rounded-circle border border-2 border-primary">
                     </a>
                     <ul class="dropdown-menu dropdown-menu-end">
-                        <li><a class="dropdown-item" href="ProfileFreelancer.php"><i class="bi bi-person me-2"></i> Profile</a></li>
-                        <li><a class="dropdown-item" href="#"><i class="bi bi-gear me-2"></i> Settings</a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item text-danger" href="logout.php"><i class="bi bi-box-arrow-right me-2"></i> Log Out</a></li>
+                            <li><a class="dropdown-item" href="ProfileFreelancer.php">Profile</a></li>
+                            <li><a class="dropdown-item" href="settings.php">Settings</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li>
+                                <form action="logout.php" method="post" id="logout-form">
+                                    <button type="submit" class="dropdown-item" id="logout-btn">Log Out</button>
+                                </form>
+                            </li>
                     </ul>
                 </div>
             </div>

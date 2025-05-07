@@ -38,15 +38,15 @@
                             <img src="image/profil.svg" alt="icon" width="40" height="40" class="img-circle-frame">
                         </a>
                         <ul class="dropdown-menu dropdown-menu-end">
-                        <li><a class="dropdown-item" href="ProfileFreelancer.php">Profile</a></li>
-                        <li><a class="dropdown-item" href="settings.php">Settings</a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li>
-                            <form action="logout.php" method="post" id="logout-form">
-                                <button type="submit" class="dropdown-item" id="logout-btn">Log Out</button>
-                            </form>
-                        </li>
-                    </ul>
+                            <li><a class="dropdown-item" href="ProfileFreelancer.php">Profile</a></li>
+                            <li><a class="dropdown-item" href="settings.php">Settings</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li>
+                                <form action="logout.php" method="post" id="logout-form">
+                                    <button type="submit" class="dropdown-item" id="logout-btn">Log Out</button>
+                                </form>
+                            </li>
+                        </ul>
                     </li>
                 </ul>
             </div>  
