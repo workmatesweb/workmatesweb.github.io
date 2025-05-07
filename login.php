@@ -15,7 +15,7 @@
     <div class="container" id="container">
       <div class="form-container sign-up">
         <form action="backend/register.php" method="POST">
-          <h1>Create Accountd</h1>
+          <h1>Create Account</h1>
           <div class="social-icons">
             <a href="#" class="icon"
               ><i class="fa-brands fa-google-plus-g"></i
