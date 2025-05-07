@@ -4,7 +4,7 @@ session_start();
 
 // Check if user is logged in (either as freelancer or client)
 if (isset($_SESSION['freelancer_id'])) {
-    header("Location: http://localhost/23si2/workmates.github.io/login.php");
+    header("Location: http://localhost/workmates.github.io/login.php");
     exit();
 }
 
@@ -19,7 +19,7 @@ $stmt->execute();
 $result = $stmt->get_result();
 
 if ($result->num_rows === 0) {
-    header("Location: http://localhost/23si2/workmatesweb.github.io/freelancers.php");
+    header("Location: http://localhost/workmatesweb.github.io/freelancers.php");
     exit();
 }
 
@@ -49,7 +49,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             
             if ($insert_stmt->execute()) {
                 $project_id = $conn->insert_id;
-                header("Location: http://localhost/23si2/workmatesweb.github.io/payment.php?project_id=" . $project_id);
+                header("Location: http://localhost/workmatesweb.github.io/payment.php?project_id=" . $project_id);
                 exit();
             } else {
                 $error = "Error creating project: " . $conn->error;

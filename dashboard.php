@@ -274,7 +274,7 @@
                         <img src="image/profil.svg" alt="Profile" width="30" height="30" class="rounded-circle">
                     </a>
                     <ul class="dropdown-menu dropdown-menu-end">
-                        <li><a class="dropdown-item" href="pofileclient.php">Profile</a></li>
+                        <li><a class="dropdown-item" href="profileclient.php">Profile</a></li>
                         <li><a class="dropdown-item" href="settings.php">Settings</a></li>
                         <li><hr class="dropdown-divider"></li>
                         <li>
@@ -397,11 +397,7 @@
                         </div>
                         <button class="btn btn-primary w-100">Subscribe</button>
                         
-                        <div class="social-icons mt-3">
-                            <a href="#" class="me-2"><img src="image/facebook.png" alt="Facebook"></a>
-                            <a href="#" class="me-2"><img src="image/ig.png" alt="Instagram"></a>
-                            <a href="#"><img src="image/linkedln.png" alt="LinkedIn"></a>
-                        </div>
+                        
                     </div>
                 </div>
             </div>
