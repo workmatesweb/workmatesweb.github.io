@@ -261,7 +261,7 @@ $conn->close();
                                         <div class="col-md-4">
                                             <label class="payment-method">
                                                 <input type="radio" name="bank_code" value="bca" checked hidden>
-                                                <img src="image\bca.png" alt="BCA" class="bank-logo">
+                                                <img src="image\Bank_Central_Asia.svg.webp" alt="BCA" class="bank-logo">
                                                 BCA
                                             </label>
                                         </div>
