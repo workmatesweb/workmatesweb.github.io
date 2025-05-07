@@ -222,6 +222,11 @@
             font-size: 0.8rem;
             color: #bdc3c7;
         }
+
+        .social-icons img {
+             width: 30px;
+            height: 30px;
+        }
         
         /* Responsive adjustments */
         @media (max-width: 992px) {
@@ -262,8 +267,8 @@
                 <a href="#" class="me-2"><img src="image/Socialicons.png" alt="WhatsApp" width="20"></a> 
                 <a href="#" class="me-2"><img src="image/Notification.png" alt="Notification" width="20"></a>
                 <a href="#" class="me-2"><img src="image/Message.png" alt="Message" width="20"></a>
-                <a href="#" class="nav-link me-2">Dashboard</a>
-                <a href="freelancers.php" class="nav-link me-2">Find Freelancers</a>
+                <a href="#" class="nav-link me-3">Dashboard</a>
+                <a href="freelancers.php" class="nav-link me-3">Find Freelancers</a>
                 <div class="dropdown">
                     <a class="dropdown-toggle d-flex align-items-center" href="#" role="button" data-bs-toggle="dropdown">
                         <img src="image/profil.svg" alt="Profile" width="30" height="30" class="rounded-circle">
@@ -273,7 +278,7 @@
                         <li><a class="dropdown-item" href="settings.php">Settings</a></li>
                         <li><hr class="dropdown-divider"></li>
                         <li>
-                            <form action="backend/logout.php" method="post" id="logout-form">
+                            <form action="logout.php" method="post" id="logout-form">
                                 <button type="submit" class="dropdown-item" id="logout-btn">Log Out</button>
                             </form>
                         </li>
